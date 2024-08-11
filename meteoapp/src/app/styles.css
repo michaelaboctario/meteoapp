@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    min-height: 400px;
+    background-color: rgb(233, 212, 212);
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.meteo-card {
+    min-height: 260px;
+}
+
+.app-name {
+    font-size: 18px;
+    color: rgb(32, 13, 102);
+    margin: 16px 0;
+}
+ 
+.ville-lookup {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border: 3px solid rgb(99, 102, 85);
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #e1eaec;
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    padding: 12px 40px 12px 40px;
+    color: #685a5a;
+}
+
+.ville-lookup:focus {
+    width: 100%;
+}
+
+.ville-nom {
+    font-size: 14px;
+    color: rgb(32, 13, 102);;
+    margin-bottom: 8px;
+}
